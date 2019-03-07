@@ -21,18 +21,9 @@ namespace CSD3354_2_Assignment__2
 
     public class DelegateExercises
     {
-        void Method1()
+        void Method3()
         {
-            System.Console.WriteLine("Method1");
-
-
-        }
-
-        public void Method3()
-        {
-            MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
-            System.Console.WriteLine(myDelegate.ToString());
+            System.Console.WriteLine(MyDelegate.ToString());
         }
     }
 }
